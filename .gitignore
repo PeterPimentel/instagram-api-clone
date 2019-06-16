@@ -4,6 +4,7 @@
 
 #files saved
 uploads/resized/*
+!uploads/resized/readme.md
 
 ### Node ###
 # Logs
