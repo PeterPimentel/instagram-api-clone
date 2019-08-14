@@ -17,6 +17,7 @@
     <img src="./docs/images/node-logo.jpg" alt="React chat logo" width="60px"/>
     <img src="./docs/images/mongo-logo.jpg" alt="React chat logo" width="60px"/>
     <img src="./docs/images/jest-logo.jpg" alt="React chat logo" width="60px"/>
+    <img src="./docs/images/docker.png" alt="React chat logo" width="60px"/>
 </p>
 
 ### Purpose
@@ -33,14 +34,24 @@ It's necessary to download the web client or use Postman.
 You can download a web client [here](https://github.com/PeterPimentel/instagram-web-clone)
 
 ##### Requirements
+- Docker
+ **Or**
 - Node
 - MongoDB
 
 #### Getting Started
 
+##### Local
 ```bash
 $ git clone https://github.com/PeterPimentel/instagram-api-clone.git
 $ cd instagram-api-clone/
 $ npm install
 $ npm run dev
+```
+##### Docker
+
+```bash
+$ git clone https://github.com/PeterPimentel/instagram-api-clone.git
+$ cd instagram-api-clone/
+$ docker-compose up
 ```
