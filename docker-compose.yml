@@ -2,14 +2,15 @@ version: '3'
 
 services:
   instagram-api-clone:
-    container_name: instagram-api-clone
     build: .
+    environment:
+       - DB_HOST=mongodb://mongo:27017/instagram
+       - APP_PORT=3333
     ports:
     - "3333:3333"
-    links:
-        - mongo
+    depends_on:
+      - mongo
   mongo:
-    container_name: mongo
     image: mongo
     ports:
-      - "27017:27017"
+    - "27017:27017"

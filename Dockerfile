@@ -23,4 +23,4 @@ COPY . /app/
 EXPOSE 3333
 
 #Comand to execute the aplication
-CMD [ “npm”, “start” ]
+CMD [ "npm", "start" ]
