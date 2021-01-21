@@ -17,7 +17,7 @@
     "mongoose": "^5.6.0",
     "multer": "^1.4.1",
     "sharp": "^0.22.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "jest": "^24.8.0"
